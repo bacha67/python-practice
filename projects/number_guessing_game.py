@@ -1,12 +1,10 @@
 import random
 
 secret_number=random.randint(1,100)
-while True:
-    try:
-        guess = int(input("Enter your guess: "))
-        break
-    except ValueError:
-        print("Please enter a valid number")
+try:
+ guess = int(input('enter your guess: '))
+except ValueError:
+   print('pleas enter a valid number')
 
 while guess!=secret_number:
 
