@@ -3,6 +3,7 @@
 #Instead of using return, generators use the yield keyword. 
 import mymodule as md
 import platform as plt
+import datetime as dt
 
 
 def count_up_to(n):
@@ -22,3 +23,4 @@ print(a)
 b=md.x
 print(b)
 print(plt.system())
+print(dt.datetime.now())
