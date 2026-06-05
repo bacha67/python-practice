@@ -24,4 +24,11 @@ s1.grade="B"
 # Print the updated grade
 print(s1.grade)
 
-    
+class Calculator:
+    def add(self, a,b):
+        return a+b
+    def mul(self,a,b):
+        return a*b
+calc=Calculator()
+print(calc.add(4,2))
+print(calc.mul(4,2))
